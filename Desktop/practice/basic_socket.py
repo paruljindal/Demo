@@ -6,10 +6,11 @@ def get_hostname_ip():
         hostip=socket.gethostbyname(hostname)
         print("Hostname :",hostname)
         print("IP :",hostip)
-        
-         print("SUCCESS")
+        print("Connection is: ")
+        print("SUCCESS")
     except:
         print('unable to get Hostname and IP')
 
 get_hostname_ip()
               
+
